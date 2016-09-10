@@ -12,7 +12,7 @@ Here is the overview of the simple system done in [Digikeys's schemeit](http://w
 ![Image of Schematic](https://github.com/cwoolet/atmosphere/blob/master/images/schematic.png)
 
 ##Bill of Materials 
-* THe SOC is [Adafruit's Huzzah]( https://www.adafruit.com/product/2471)
+* The SOC is [Adafruit's Huzzah]( https://www.adafruit.com/product/2471)
 * R1 is a 10KΩ Pot
   * Manually adjusts the watering duration
 * R2 is a 15KΩ Resistor
@@ -28,6 +28,6 @@ Here is the overview of the simple system done in [Digikeys's schemeit](http://w
 * 5/8 tubing
 
 ##Operation
-atmosphere works by connecting to avaliable wifi network and pulls in the current weather conditions and forecast. With this information, atmosphere can make the watering decision. Within the code the user can define parameters for watering duration, time to water, rain accumulated threshold, and as well what percent chance of rain is a limit. 
+atmosphere works by connecting to avaliable wifi network and pulls in the current weather conditions and forecast. With this information, atmosphere can make a decision to water or not. Within the code, the user can define parameters for watering duration, time to water, rain accumulated threshold, and as well what percent chance of rain is a limit to watering. 
 
 The Adafruit Huzzah comes preprogramed with NodeMCU but check out their [guide](https://learn.adafruit.com/adafruit-huzzah-esp8266-breakout/using-arduino-ide) to use the Arduino IDE. 
